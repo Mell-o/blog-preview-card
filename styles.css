@@ -44,6 +44,11 @@ p {
     margin: 0;
 }
 
+article figure {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 .medium {
     font-weight: 500;
 }
@@ -99,10 +104,10 @@ p {
     background: var(--yellow);
     border-radius: 0.25rem;
     font-size: 0.875rem;
+    margin: 0 0 0.75rem 0;
 }
 
 .publish-date {
-    margin: 0.75rem 0 0 0;
     font-size: 0.875rem;
     line-height: 150%;
 }
