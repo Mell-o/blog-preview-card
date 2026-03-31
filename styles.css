@@ -31,11 +31,9 @@ h1 {
     display: flex;
     align-items: center;
     margin: 0.75rem 0 0 0;
-    font-weight: 800;
     height: 2.25rem;
     font-size: 1.5rem;
     cursor: pointer;
-    font-weight: 800;
 }
 
 h1:hover {
@@ -44,6 +42,14 @@ h1:hover {
 
 p {
     margin: 0;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.extrabold {
+    font-weight: 800;
 }
 
 .main-card {
@@ -90,7 +96,6 @@ p {
     align-items: center;
     width: fit-content;
     padding: 0.25rem 0.75rem;
-    font-weight: 800;
     background: var(--yellow);
     border-radius: 0.25rem;
     font-size: 0.875rem;
@@ -100,7 +105,6 @@ p {
     margin: 0.75rem 0 0 0;
     font-size: 0.875rem;
     line-height: 150%;
-    font-weight: 500;
 }
 
 .description {
@@ -108,7 +112,6 @@ p {
     color: var(--gray-500);
     height: 4.5rem;
     height: fit-content;
-    font-weight: 500;
 }
 
 .author-card {
